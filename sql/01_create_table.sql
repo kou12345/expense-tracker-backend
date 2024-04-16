@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS account_books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    date TEXT NOT NULL,
+    item TEXT NOT NULL,
+    amount INTEGER NOT NULL
+);

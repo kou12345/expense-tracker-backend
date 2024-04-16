@@ -1,0 +1,21 @@
+name = "expense-tracker-backend"
+compatibility_date = "2023-12-01"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "expense-tracker-d1"
+database_id = "7ab61fea-4d26-4d65-9ad5-0ca701ebbea8"
+
+# [ai]
+# binding = "AI"
